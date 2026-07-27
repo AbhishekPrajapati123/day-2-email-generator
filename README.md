@@ -1,11 +1,15 @@
 # Documentation of my app
 # ✉️ AI Professional Email Generator
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](#) <!-- Add your live Streamlit URL inside the (#) -->
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://day-2-email-generator-dxsg4azvseau9b7a5ryg2m.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Groq API](https://img.shields.io/badge/Groq-Llama_3.1-orange.svg)](https://groq.com/)
 
 A lightweight, highly efficient web application that generates perfectly structured business, formal, or casual emails in seconds. Built using Streamlit and powered by Groq's lightning-fast **Llama-3.1-8b-instant** language model.
+
+👉 **[Launch Live Web Application](https://day-2-email-generator-dxsg4azvseau9b7a5ryg2m.streamlit.app/)**
+
+---
 
 ## ✨ Features
 
@@ -14,12 +18,19 @@ A lightweight, highly efficient web application that generates perfectly structu
 *   **Prompt Templating:** Uses a strict system prompt to guarantee the output is formatted as a ready-to-send email without AI hallucinations or placeholder brackets.
 *   **Lightning Fast:** Leverages Groq's Llama 3.1 model for near-instant text generation.
 
+## 🌐 Live Deployment
+
+This application is deployed live on Streamlit Community Cloud and ready to use:  
+🔗 **Live Link:** [https://day-2-email-generator-dxsg4azvseau9b7a5ryg2m.streamlit.app/](https://day-2-email-generator-dxsg4azvseau9b7a5ryg2m.streamlit.app/)
+
 ## 🛠️ Tech Stack
 
 *   **Frontend/UI:** [Streamlit](https://streamlit.io/)
 *   **LLM Provider:** [Groq API](https://groq.com/)
 *   **Language Model:** `llama-3.1-8b-instant`
 *   **Environment Management:** `python-dotenv`
+
+---
 
 ## 🚀 How to Run Locally
 
