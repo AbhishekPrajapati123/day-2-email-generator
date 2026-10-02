@@ -74,7 +74,7 @@ if st.button("Generate Email 🚀"):
                 
                 # 3. Call the Groq LLM API
                 response = client.chat.completions.create(
-                    model="llama-3.1-8b-instant",  # Updated to the current Llama 3.1 model
+                    model="openai/gpt-oss-120b",  # Updated to the current Llama 3.1 model
                     messages=[
                         {
                             "role": "system",
